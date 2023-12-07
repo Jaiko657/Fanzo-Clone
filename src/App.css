@@ -66,8 +66,10 @@
 #location {
   margin-top: 2.5em;
   font-weight: normal;
-  transform: scaleX(1.1);
-  margin-bottom: 7vh;
+  font-size: 1.2em;
+  transform: scaleX(1.2);
+  letter-spacing: .02em;
+  margin-bottom: calc(7vh - .2em);
 }
 
 .Timer {
@@ -89,26 +91,28 @@
 
 #countdown {
   font-family: chairdrobe-bold;
-  font-size: 4em;
+  font-size: 5em;
   transform: scaleY(1.2);
 }
 
 #countdown-msg {
-  margin-top: 2em;
+  margin-top: 1em;
   font-weight: 100;
   color: #5F5F5F;
   opacity: 0.8;
 }
 
 #claimed-text {
+  font-family: chairdrobe-regular;
   margin-top: 2.5em;
-  font-weight: 400;
-  color: #F5F5F5;
-  margin-bottom: 0.5em;
+  font-weight: 100;
+  color: #E5E5E5;
+  margin-bottom: 1em;
 }
 
 #button {
   font-weight: 400;
+  font-size: 1.1em;
   color: #454545;
   background-color: white;
   padding: 1em;
