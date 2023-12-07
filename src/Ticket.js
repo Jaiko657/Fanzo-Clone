@@ -7,7 +7,7 @@ function Ticket(props) {
   // Function to update the pub name
   const toggle = () => {
     if (type == 'CIDER') {
-      setType('LARGER');
+      setType('LAGER');
     } else {
       setType('CIDER');
     }
