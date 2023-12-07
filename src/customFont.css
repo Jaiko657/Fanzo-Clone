@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'chairdrobe-regular';
+  src:  local('chairdrobe-regular'),
+        url('./fonts/chairdrobe-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'chairdrobe-bold';
+  src:  local('chairdrobe-bold'),
+        url('./fonts/chairdrobe-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

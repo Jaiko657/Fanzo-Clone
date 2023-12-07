@@ -1,38 +1,121 @@
+:root {
+  background-color: #4D4D4D;
+  font-family: chairdrobe-regular;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.Header {
+  font-family: chairdrobe-bold;
+  width: 90%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header div {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -.08em;
+  transform: scaleX(.7);
+}
+
+.Header img {
+  height: 2em;
+  width: 2em;
+}
+
+#back {
+  transform: translateX(-.5em);
+}
+
+.Ticket {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 92vh;
+  box-shadow: 2px 6px 10px 0 rgba(0, 0, 0, 0.2);
   color: white;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+#voucher {
+  font-weight: 500;
+  color: #8F8E8C;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  transform: scaleX(1.2);
+  transform: ;
+  padding-top: 3vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#promo {
+  font-size: 3.5em;
+  line-height: .8;
+  transform: scaleX(.9);
+}
+
+#location {
+  margin-top: 2.5em;
+  font-weight: normal;
+  transform: scaleX(1.1);
+  margin-bottom: 7vh;
+}
+
+.Timer {
+  color: black;
+  background-color: white;
+  width: 60vw;
+  height: 63vw;
+  border-radius: .7em;
+  padding: 1em;
+}
+
+#timer-msg {
+  font-weight: 500;
+  margin-top: 1.5em;
+  margin-bottom: 5vh;
+  letter-spacing: 1px;
+  color: #4D4D4D;
+}
+
+#countdown {
+  font-family: chairdrobe-bold;
+  font-size: 4em;
+  transform: scaleY(1.2);
+}
+
+#countdown-msg {
+  margin-top: 2em;
+  font-weight: 100;
+  color: #5F5F5F;
+  opacity: 0.8;
+}
+
+#claimed-text {
+  margin-top: 2.5em;
+  font-weight: 400;
+  color: #F5F5F5;
+  margin-bottom: 0.5em;
+}
+
+#button {
+  font-weight: 400;
+  color: #454545;
+  background-color: white;
+  padding: 1em;
+  width: 50%;
+  border-radius: .5em;
+  font-family: chairdrobe-regular;
+  transform: scaleX(1.4);
 }
