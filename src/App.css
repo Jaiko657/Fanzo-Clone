@@ -23,7 +23,6 @@
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: -.08em;
   transform: scaleX(.7);
 }
 
@@ -55,7 +54,6 @@
   font-size: 1.4em;
   letter-spacing: 1px;
   transform: scaleX(1.2);
-  transform: ;
   padding-top: 3vh;
 }
 
