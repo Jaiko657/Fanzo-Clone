@@ -1,12 +1,10 @@
 import Timer from './Timer'
-import { useState } from 'react';
 
-function Ticket(props) {
-  const [type, setType] = useState("CIDER");
+function Ticket({ pubName , type, setType, onClick }) {
 
   // Function to update the pub name
   const toggle = () => {
-    if (type == 'CIDER') {
+    if (type === 'CIDER') {
       setType('LAGER');
     } else {
       setType('CIDER');
@@ -17,11 +15,11 @@ function Ticket(props) {
     <div className="Ticket">
       <div id="voucher">VOUCHER</div>
       <div id="promo" onClick={toggle}>FREE PINT OF ROCKSHORE {type}</div>
-      <div id="location">At {props.pubName}</div>
+      <div id="location">At {pubName}</div>
 
       <Timer />
       <div id='claimed-text'>Once claimed, tap "Offer Received"</div>
-      <div id='button'>Offer Received</div>
+      <div id='button' onClick={onClick}>Offer Received</div>
     </div>
   );
 }
