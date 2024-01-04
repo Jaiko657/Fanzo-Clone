@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Fanzo-Clone/static/css/main.e1f4f3d5.css",
+    "main.js": "/Fanzo-Clone/static/js/main.7c8ed235.js",
+    "static/media/chairdrobe-bold.otf": "/Fanzo-Clone/static/media/chairdrobe-bold.20ace16b455b7c55dfc6.otf",
+    "static/media/chairdrobe-regular.otf": "/Fanzo-Clone/static/media/chairdrobe-regular.5df925ebd5128074a844.otf",
+    "index.html": "/Fanzo-Clone/index.html",
+    "main.e1f4f3d5.css.map": "/Fanzo-Clone/static/css/main.e1f4f3d5.css.map",
+    "main.7c8ed235.js.map": "/Fanzo-Clone/static/js/main.7c8ed235.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1f4f3d5.css",
+    "static/js/main.7c8ed235.js"
+  ]
+}
