@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://jaiko657.github.io/app",
+  "homepage": "https://jaiko657.github.io/Fanzo-Clone",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
