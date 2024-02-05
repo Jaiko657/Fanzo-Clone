@@ -14,7 +14,7 @@ function Ticket({ pubName , type, setType, onClick }) {
   return (
     <div className="Ticket">
       <div id="voucher">VOUCHER</div>
-      <div id="promo" onClick={toggle}>FREE PINT OF ROCKSHORE {type}</div>
+      <div id="promo" onClick={toggle}>FREE PINT OF GUINESS</div>
       <div id="location">At {pubName}</div>
 
       <Timer />

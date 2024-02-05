@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+import claim from './assets/imgs/claim.png'
 
 const Modal = ({ showModal, toggleModal, type }) => {
   if (!showModal) return null;
@@ -18,18 +19,16 @@ const Modal = ({ showModal, toggleModal, type }) => {
       zIndex: 100,
     }}>
       <div style={{
-        backgroundColor: '#152C12',
+        // backgroundColor: '#152C12',
         height: '50vh',
-        width: '90vw',
+        width: '80vw',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
         display: 'flex',
-        flexDirection: 'column',
+        // flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center'
       }}>
-        <div id="voucher">You've now claimed your</div>
-        <div id="promo">FREE PINT OF ROCKSHORE {type}</div>
-        <button onClick={toggleModal}>Close</button>
+        <img src={claim} onDoubleClick={toggleModal}></img>
       </div>
     </div>
   );

@@ -58,9 +58,9 @@
 }
 
 #promo {
-  font-size: 3.5em;
+  font-size: 3.8em;
   line-height: .8;
-  transform: scaleX(.9);
+  transform: scaleX(1);
 }
 
 #location {
