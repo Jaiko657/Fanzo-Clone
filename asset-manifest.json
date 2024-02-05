@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Fanzo-Clone/static/css/main.35be9311.css",
-    "main.js": "/Fanzo-Clone/static/js/main.dbe4311a.js",
+    "main.js": "/Fanzo-Clone/static/js/main.7210e2ca.js",
+    "static/media/claim.png": "/Fanzo-Clone/static/media/claim.88bf485ba9c7ac27b17b.png",
     "static/media/chairdrobe-bold.otf": "/Fanzo-Clone/static/media/chairdrobe-bold.20ace16b455b7c55dfc6.otf",
     "static/media/chairdrobe-regular.otf": "/Fanzo-Clone/static/media/chairdrobe-regular.5df925ebd5128074a844.otf",
-    "static/media/claim.png": "/Fanzo-Clone/static/media/claim.d8801a20bd1408b51609.png",
     "index.html": "/Fanzo-Clone/index.html",
     "main.35be9311.css.map": "/Fanzo-Clone/static/css/main.35be9311.css.map",
-    "main.dbe4311a.js.map": "/Fanzo-Clone/static/js/main.dbe4311a.js.map"
+    "main.7210e2ca.js.map": "/Fanzo-Clone/static/js/main.7210e2ca.js.map"
   },
   "entrypoints": [
     "static/css/main.35be9311.css",
-    "static/js/main.dbe4311a.js"
+    "static/js/main.7210e2ca.js"
   ]
 }
